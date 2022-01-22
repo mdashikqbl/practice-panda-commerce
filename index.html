@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/935ec22e59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Panda practice</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <nav class="navbar navbar-light ">
+                    <div class="container">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <div class="row d-flexjustify-content-center align-items-center bg-colur margin  ">
+                            <div class="col-lg-7 ">
+                                <h2>Cool Dude Headphone</h2>
+                                <p>This is the best headphone in the world for people who just want to waste time in
+                                    front of funky world.</p>
+                                <h2 class="usd-color">$420</h2>
+                                <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flexjustify-content-center align-items-center bg-colur margin  ">
+                            <div class="col-lg-7 ">
+                                <h2>Mega LCD TV For Sports </h2>
+                                <p>This is the best tv in the world for people who just want to waste time in front of
+                                    tv.</p>
+                                <h2 class="usd-color">$1200</h2>
+                                <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flexjustify-content-center align-items-center bg-colur margin  ">
+                            <div class="col-lg-7 ">
+                                <h2>X-Box for your living room</h2>
+                                <p>This is the best x-box in the world for people who just want to waste time in front
+                                    of fake sports</p>
+                                <h2 class="usd-color">$600</h2>
+                                <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a>
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+    </header>
+    <main>
+        <!-- Categories -->
+        <section class="container">
+            <h2>Categories</h2>
+            <div class="row gy-5">
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="p-3 border0 shadow small-card1 d-flex justify-content-center align-items-center justify-content-evenly">
+                        <h2 id="white">Watch</h2>
+                        <img width="80" src="images/categories/watch.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div
+                        class="p-3 border0 shadow small-card2 d-flex justify-content-center align-items-center justify-content-evenly">
+                        <h2 id="white">Bag</h2>
+                        <img width="80" src="images/categories/bag.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 ">
+                    <div
+                        class="p-3 border0 shadow small-card3 d-flex justify-content-center align-items-center justify-content-evenly">
+                        <h2 id="white">Shoes</h2>
+                        <img width="80" src="images/categories/shoes.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shoes section start -->
+        <section class="container my-5">
+            <h2>Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg tarn-card h-100">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Mens Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class=" text-center">
+                            <span>
+                                <h5>$999</h5>
+                            </span>
+                            <span> <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg tarn-card h-100">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class=" text-center">
+                            <span>
+                                <h5>$666</h5>
+                            </span>
+                            <span> <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg tarn-card h-100">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class=" text-center">
+                            <span>
+                                <h5>$888</h5>
+                            </span>
+                            <span> <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section bag start -->
+        <section class="container my-5">
+            <h2>bag</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg tarn-card h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Mens Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class=" text-center">
+                            <span>
+                                <h5>$999</h5>
+                            </span>
+                            <span> <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg tarn-card h-100">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class=" text-center">
+                            <span>
+                                <h5>$666</h5>
+                            </span>
+                            <span> <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg tarn-card h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                        </div>
+                        <div class=" text-center">
+                            <span>
+                                <h5>$888</h5>
+                            </span>
+                            <span> <a href=""><button type="button" class="button-custom">Buy Now <i
+                                            class="fas fa-arrow-right"></i></button></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section three start -->
+        <section class="container my-5 back  d-flex justify-content-center align-items-center col-12">
+            <div>
+                <h1 id="white"> LET'S STAY IN TOUCH</h1>
+                <P id="white">Get updates on sales, specials and more</P>
+                <input type="text" required value="" placeholder="Your Email">
+                <br>
+                <a href=""><button type="button" class="button-custom marg">Subscribe</button></a>
+            </div>
+        </section>
+    </main>
+    <!-- footer start -->
+    <footer class="mt-5 text-center">
+        <p><small class="bold">©2025. Panda Commerce. All rights reserved. Sofia, Bulgaria.
+            </small></p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

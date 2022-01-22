@@ -1,0 +1,20 @@
+{
+    "ponicode.token": "7c97ecca-d5aa-4074-bee5-2b1bc1d1ebe3",
+    "webview.experimental.useExternalEndpoint": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.renderWhitespace": "none",
+    "editor.fontSize": 21,
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.accessibilitySupport": "off",
+    "editor.wordWrap": "on",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.colorTheme": "Andromeda Colorizer",
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.rootFontSize": 24,
+    "html-css-class-completion.enableEmmetSupport": true
+}
